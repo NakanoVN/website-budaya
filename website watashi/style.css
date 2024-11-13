@@ -1,0 +1,96 @@
+body {
+    background-color: #0D1117; /* Dark background */
+    color: #fff; /* White text for readability */
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+  }
+  
+  /* Make the navbar dark but not fully black */
+  .navbar {
+    background-color: #161b22; /* Dark background for navbar */
+    border-bottom: 1px solid #444; /* Slight border for contrast */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff !important; /* Ensure nav links are white */
+  }
+  
+  /* Change the navbar link color on hover */
+  .navbar-nav .nav-link:hover {
+    color: #204B9A !important; /* Light color on hover */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff; /* White hamburger icon for navbar */
+  }
+  
+  /* Set carousel background and text color */
+  .carousel-item {
+    background-color: #0D1117; /* Dark background for carousel items */
+    color: #fff; /* White text for readability */
+  }
+  
+  .carousel-inner {
+    background-color: #0D1117; /* Dark background for carousel inner */
+  }
+  
+  .carousel-caption {
+    color: #fff; /* White text for carousel captions */
+  }
+  
+  /* Custom card styling with dark background */
+  .card {
+    background-color: #161b22; /* Dark background for cards */
+    color: #fff; /* White text */
+    border: none;
+  }
+  
+  .card-title {
+    color: #fff; /* Ensure card titles are white */
+  }
+  
+  .custom-card-img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+  }
+  
+  /* Custom card body padding */
+  .card-body {
+    padding: 15px;
+  }
+  
+  /* Section with dark background */
+  .container-fluid {
+    background-color: #0D1117; /* Dark background for sections */
+  }
+  
+  .container.text-center {
+    color: #fff; /* White text inside container */
+  }
+  
+  /* Footer or fixed sections with dark background */
+  .own {
+    background-color: #161b22; /* Dark background */
+    color: #fff; /* White text */
+  }
+  
+  .own i {
+    color: #fff; /* White icons */
+  }
+  
+  /* Carousel controls with custom icons */
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #0D1117; /* White carousel controls */
+  }
+
+  .banner {
+    background: url("img/bg1.jpg")
+      no-repeat center center;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    color: #fff;
+  }
+  
